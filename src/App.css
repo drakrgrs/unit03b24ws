@@ -3,6 +3,16 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  border: 5px outset white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .logo {
@@ -43,4 +53,14 @@
 
 /* everything after here was me */
 
+.fPup {
+  border: 2px solid white;
+  border-radius: 50px;
+  display: inline-flex;
+  padding: 10px;
+}
 
+li {
+  font-weight: bold;
+  font-size: medium;
+}
